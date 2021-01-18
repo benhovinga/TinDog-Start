@@ -15,6 +15,10 @@ h3 {
   font-weight: bold;
 }
 
+p {
+  color: #8f8f8f;
+}
+
 .container-fluid {
   padding: 3% 15%;
 }
@@ -66,22 +70,19 @@ h3 {
 
 #features {
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .feature {
-  padding: 20px;
+  padding: 1.5rem;
 }
 
 .feature-icon {
   color: #EF8172;
-  font-size: 3rem;
-  padding-bottom: 20px;
+  font-size: 4rem;
+  margin-bottom: 1rem;
 }
 
 .feature-icon:hover {
   color: #ff4c68;
-}
-
-.feature-description {
-  color: #8f8f8f;
 }
