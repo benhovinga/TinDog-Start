@@ -122,3 +122,14 @@ p {
   width: 15%;
   margin: 20px;
 }
+
+/* Pricing Section */
+
+#pricing {
+  padding: 7%;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%
+}
