@@ -135,5 +135,18 @@ p {
 }
 
 .pricing-col {
-  padding: 3% 2%
+  padding: 3% 2%;
+}
+
+/* Media Query for Title Image */
+
+@media (max-width: 991px) {
+  #iphone-mockup {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
 }
