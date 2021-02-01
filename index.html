@@ -32,83 +32,81 @@
   </head>
 
   <body>
-    <header id="title">
-      <div class="container-fluid title-container">
-        <!-- Nav Bar -->
+    <header id="title" class="container-fluid">
+      <!-- Nav Bar -->
 
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <a href="#" class="navbar-brand">tindog</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbar"
-            aria-controls="navbar"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a href="#" class="navbar-brand">tindog</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#footer" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#pricing" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#cta" class="nav-link">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-lg btn-dark download-btn">
+            <i class="fab fa-apple"></i> Download
           </button>
-          <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a href="#footer" class="nav-link">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a href="#pricing" class="nav-link">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a href="#cta" class="nav-link">Download</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-
-        <!-- Title -->
-
-        <div class="row">
-          <div class="col-lg-6">
-            <h1>Meet new and interesting dogs nearby.</h1>
-            <button type="button" class="btn btn-lg btn-dark download-btn">
-              <i class="fab fa-apple"></i> Download
-            </button>
-            <button
-              type="button"
-              class="btn btn-lg btn-outline-light download-btn"
-            >
-              <i class="fab fa-google-play"></i> Download
-            </button>
-          </div>
-          <div class="col-lg-6">
-            <img
-              id="iphone-mockup"
-              src="images/iphone6.png"
-              alt="iphone-mockup"
-            />
-          </div>
+          <button
+            type="button"
+            class="btn btn-lg btn-outline-light download-btn"
+          >
+            <i class="fab fa-google-play"></i> Download
+          </button>
+        </div>
+        <div class="col-lg-6">
+          <img
+            id="iphone-mockup"
+            src="images/iphone6.png"
+            alt="iphone-mockup"
+          />
         </div>
       </div>
     </header>
 
     <!-- Features -->
 
-    <section id="features">
+    <section id="features" class="container-fluid">
       <div class="row">
         <div class="col-lg-4 feature">
           <i class="fas fa-check-circle feature-icon"></i>
-          <h3>Easy to use.</h3>
+          <h3 class="feature-head">Easy to use.</h3>
           <p>So easy to use, even your dog could do it.</p>
         </div>
 
         <div class="col-lg-4 feature">
           <i class="fas fa-bullseye feature-icon"></i>
-          <h3>Elite Clientele</h3>
+          <h3 class="feature-head">Elite Clientele</h3>
           <p>We have all the dogs, the greatest dogs.</p>
         </div>
 
         <div class="col-lg-4 feature">
           <i class="fas fa-heart feature-icon"></i>
-          <h3>Guaranteed to work.</h3>
+          <h3 class="feature-head">Guaranteed to work.</h3>
           <p>Find the love of your dog's life or your money back.</p>
         </div>
       </div>
@@ -116,7 +114,7 @@
 
     <!-- Testimonials -->
 
-    <section id="testimonials">
+    <section id="testimonials" class="container-fluid">
       <div id="testimonial-carousel" class="carousel slide" data-ride="false">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -179,17 +177,17 @@
 
     <!-- Pricing -->
 
-    <section id="pricing">
-      <h2>A Plan for Every Dog's Needs</h2>
+    <section id="pricing" class="container-fluid">
+      <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
       <p>Simple and affordable price plans for your and your dog.</p>
       <div class="row">
         <div class="pricing-col col-lg-4 col-md-6">
           <div class="card h-100">
             <div class="card-header">
-              <h3>Chihuahua</h3>
+              <h3 class="pricing-header">Chihuahua</h3>
             </div>
             <div class="card-body d-flex flex-column">
-              <h2>Free</h2>
+              <h2 class="pricing-price">Free</h2>
               <p>5 Matches Per Day</p>
               <p>10 Messages Per Day</p>
               <p>Unlimited App Usage</p>
@@ -205,9 +203,11 @@
 
         <div class="pricing-col col-lg-4 col-md-6">
           <div class="card h-100">
-            <div class="card-header"><h3>Labrador</h3></div>
+            <div class="card-header">
+              <h3 class="pricing-header">Labrador</h3>
+            </div>
             <div class="card-body d-flex flex-column">
-              <h2>$49 / mo</h2>
+              <h2 class="pricing-price">$49 / mo</h2>
               <p>Unlimited Matches</p>
               <p>Unlimited Messages</p>
               <p>Unlimited App Usage</p>
@@ -223,9 +223,11 @@
 
         <div class="pricing-col col-lg-4">
           <div class="card h-100">
-            <div class="card-header"><h3>Mastiff</h3></div>
+            <div class="card-header">
+              <h3 class="pricing-header">Mastiff</h3>
+            </div>
             <div class="card-body d-flex flex-column">
-              <h2>$99 / mo</h2>
+              <h2 class="pricing-price">$99 / mo</h2>
               <p>Pirority Listing</p>
               <p>Unlimited Matches</p>
               <p>Unlimited Messages</p>
@@ -244,29 +246,32 @@
 
     <!-- Call to Action -->
 
-    <section id="cta">
-      <div class="container-fluid cta-container">
-        <h1>Find the True Love of Your Dog's Life Today.</h1>
-        <button type="button" class="btn btn-lg btn-dark cta-btn">
-          <i class="fab fa-apple"></i> Download
-        </button>
-        <button
-          type="button"
-          class="btn btn-lg btn-light cta-btn"
-        >
-          <i class="fab fa-google-play"></i> Download
-        </button>
-      </div>
+    <section id="cta" class="container-fluid">
+      <h1 class="big-heading">Find the True Love of Your Dog's Life Today.</h1>
+      <button type="button" class="btn btn-lg btn-dark cta-btn">
+        <i class="fab fa-apple"></i> Download
+      </button>
+      <button type="button" class="btn btn-lg btn-light cta-btn">
+        <i class="fab fa-google-play"></i> Download
+      </button>
     </section>
 
     <!-- Footer -->
 
-    <footer id="footer">
+    <footer id="footer" class="container-fluid">
       <p>
-        <span class="footer-icon"><a href="#"><i class="fab fa-twitter"></i></a></span>
-        <span class="footer-icon"><a href="#"><i class="fab fa-facebook-f"></i></a></span>
-        <span class="footer-icon"><a href="#"><i class="fab fa-instagram"></i></a></span>
-        <span class="footer-icon"><a href="#"><i class="far fa-envelope"></i></a></span>
+        <span class="footer-icon"
+          ><a href="#"><i class="fab fa-twitter"></i></a
+        ></span>
+        <span class="footer-icon"
+          ><a href="#"><i class="fab fa-facebook-f"></i></a
+        ></span>
+        <span class="footer-icon"
+          ><a href="#"><i class="fab fa-instagram"></i></a
+        ></span>
+        <span class="footer-icon"
+          ><a href="#"><i class="far fa-envelope"></i></a
+        ></span>
       </p>
       <p>© Copyright 2018 TinDog</p>
     </footer>
