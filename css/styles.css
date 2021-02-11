@@ -22,6 +22,15 @@ p {
   padding: 7% 15%;
 }
 
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
 /* Headings */
 
 .big-heading {
@@ -61,8 +70,6 @@ p {
 /* Title Section */
 
 #title {
-  background-color: #ff4c68;
-  color: white;
   text-align: left;
   padding-top: 3%;
 }
@@ -94,7 +101,6 @@ p {
 /* Feature Section */
 
 #features {
-  background-color: #fff;
   position: relative;
 }
 
@@ -120,7 +126,6 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-text {
@@ -160,11 +165,6 @@ p {
 }
 
 /* Call to Action */
-
-#cta {
-  color: #fff;
-  background-color: #ff4c68;
-}
 
 .cta-btn {
   margin: 5% 3%;
